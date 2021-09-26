@@ -62,9 +62,9 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 test_stat, pvalue = ttest_ind(df_cont["Purchase"], df_tst["Purchase"], equal_var=True)
 print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 
-#Test Stat = -0.9416, p-value = 0.3493. H0 reddedilir. yani ikisi arasında anlamlı bir farklılık vardır.
+#Test Stat = -0.9416, p-value = 0.3493. H0 reddedilmez. yani ikisi arasında anlamlı bir farklılık yoktur.
 
 
 #Gorev 4:Görev 2’de verdiğiniz cevaba göre, müşteriye tavsiyeniz nedir?
-#yapılan geliştirmenin kullanılabilinir olduğunu gözlemledik. Çünkü anlamlı olarak bir fark olduğunu gördük.
+#yapılan geliştirmenin kullanmaya gerek yoktur. Çünkü anlamlı olarak bir fark olmadığını gördük
 
